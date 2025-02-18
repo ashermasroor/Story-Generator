@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/b4e37d55-d83f-4460-9c64-48b44ef13644" width="750" >
 
-This is a simple story generator I developed using `text-generation-webui` and `FastAPI` for the backend and basic HTML,CSS and JavaScript for the frontend. This was developed in an attempt to practice handling streamed responses from LLMs and making use of FastAPI routers.
+This is a simple story generator I developed using `text-generation-webui` and `FastAPI` for the backend and basic `HTML`,`CSS`,`JavaScript` for the frontend. This was developed in an attempt to practice handling streamed responses from LLMs and making use of FastAPI routers.
 Two unique functionalities are:
 - The ability to copy the entire response once streaming has come to an end.
 - The ability to download the latest response as a pdf file using the 'Download PDF' button.
