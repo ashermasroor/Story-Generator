@@ -33,8 +33,11 @@ To run the LLM locally, follow these steps:
      ```
    - Click "Download" to install the model locally.
 6. **Select the model from the dropdown.**
-7. **Adjust settings as needed.**
-8. **Load the Model!**
+7. **Adjust settings as needed. My Settings:**
+
+    <img src="https://github.com/user-attachments/assets/01750826-e69d-4341-b10e-a286e3a70646" alt="TextGen-Settings-Image" width="300" >
+
+9. **Load the Model!**
 
 ## Backend Setup
 
