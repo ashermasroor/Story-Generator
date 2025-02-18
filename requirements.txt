@@ -1,0 +1,7 @@
+fastapi==0.115.8
+fpdf==1.7.2
+langchain_openai==0.3.6
+pydantic==2.10.6
+starlette==0.45.3
+pydantic_settings==2.7.1
+fastapi[standard]
