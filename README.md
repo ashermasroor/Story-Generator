@@ -1,6 +1,11 @@
 # Story Generator
 
-This repository provides a setup guide for running a locally hosted LLM-powered story generator using `text-generation-webui` and `FastAPI`. Follow the instructions below to set up the environment, backend, and frontend.
+<img src="https://github.com/user-attachments/assets/b4e37d55-d83f-4460-9c64-48b44ef13644" width="750" >
+
+This is a simple story generator I developed using `text-generation-webui` and `FastAPI` for the backend and basic HTML,CSS and JavaScript for the frontend. This was developed in an attempt to practice handling streamed responses from LLMs and making use of FastAPI routers.
+Two unique functionalities are:
+- The ability to copy the entire response once streaming has come to an end.
+- The ability to download the latest response as a pdf file using the 'Download PDF' button.
 
 ## LLM Setup
 
@@ -37,7 +42,7 @@ To run the LLM locally, follow these steps:
 
     <img src="https://github.com/user-attachments/assets/01750826-e69d-4341-b10e-a286e3a70646" alt="TextGen-Settings-Image" width="300" >
 
-9. **Load the Model!**
+9. **Wait for model to load and use.**
 
 ## Backend Setup
 
@@ -72,13 +77,13 @@ To run the LLM locally, follow these steps:
      fastapi dev/run Story-Generator --port <port>
      ```
 
-   The backend should now be running on **port 8000** or the chosen port.
+   The backend should now be running on **port 8000 (default)** or the port selected by you.
 
 ## Frontend Setup
 
 1. **Navigate to the frontend directory:**
    ```sh
-   cd <your-directory>/Story-Generator/
+   cd <your-directory>/Story-Generator/frontend
    ```
 2. **Start a Web Server:**
    - For **Python 3.x**:
@@ -95,4 +100,3 @@ To run the LLM locally, follow these steps:
      localhost:<port>
      ```
 
-Your Story Generator is now up and running!
