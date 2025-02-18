@@ -6,6 +6,6 @@ class Settings(BaseSettings):
     LLM_API_KEY: str
     LLM_BASE_URL: str
 
-    model_config = SettingsConfigDict(env_file="story_gen/backend/.env",extra="ignore")
+    model_config = SettingsConfigDict(env_file="Story-Generator/backend/.env",extra="ignore")
 
 Config = Settings()
